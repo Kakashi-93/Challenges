@@ -53,8 +53,15 @@ print(f"there are {e} even numbers, and {o} odd numbers in the domain [0,{len(n)
 
 #------------------ @start:khalid------------------------------
 
-
-
+print("Hi! Try to type a number to get how many even and odd numbers between it and 0")
+number = int(input("Type your number "))
+if number % 2 == 0:
+    print(f'There are {number//2} even numbers')
+    print(f'There are {number//2} odd numbers')
+else:
+    print(f'There are {number // 2} even numbers')
+    print(f'There are {number // 2 + 1} odd numbers')
+    
 #-------------------- @end:khalid------------------------------
 
 
